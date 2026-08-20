@@ -130,19 +130,7 @@ All 14 automated unit and integration tests will execute and pass:
 
 ---
 
-## 🎬 5-Minute Razorpay Pitch Demo Flow
 
-1. **Open Dashboard**: Load `http://localhost:3000` and click **"Seed 5-Min Pitch Demo Data"** at the top banner.
-2. **Review Health Score**: Observe the **78 / 100** Financial Health Score, income (₹40,000), current expenses, and projected overspend.
-3. **Action Center Triage**: Navigate to the **Action Center** tab to inspect the flagged **Croma Electronics Anomaly** (₹7,850) and shopping budget threshold warning.
-4. **AI Copilot Interaction**: Open **AI Copilot** and click:
-   - *"Am I going to exceed my budget?"* → AI calls `get_forecast()` and explains the projected ₹3,200 overrun with database citations.
-   - *"Why did my spending increase?"* → AI identifies the Croma Electronics outlier and category shifts.
-   - *"Can I afford to spend ₹5,000 this weekend?"* → AI checks remaining liquidity buffer and advises caution.
-5. **Receipt Intelligence**: Click the purple camera button in the bottom right, select the **Starbucks Coffee Receipt**, click **"Analyze & Extract"**, verify the pre-save confirmation modal, and click **"Confirm & Add Transaction"**.
-6. **Live Controller Update**: Watch the Dashboard and Forecast immediately recompute with the new transaction.
-
----
 
 ## 🔒 Security & Best Practices
 
